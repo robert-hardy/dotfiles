@@ -1,0 +1,8 @@
+data_resources.egg-info/
+venv/
+*.swp
+*.swo
+elm-stuff/
+.DS_Store
+elm/index.html
+__pycache__/
