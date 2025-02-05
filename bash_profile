@@ -8,7 +8,7 @@ test -r /Users/robert/.opam/opam-init/init.sh && . /Users/robert/.opam/opam-init
 alias nvim="$HOME/bin/nvim-macos-x86_64/bin/nvim"
 
 pytree() {
-  tree -I __pycache__ -I *.egg-info "$@"
+  tree -I __pycache__ -I "*.egg-info" "$@"
 }
 
 tm() {
